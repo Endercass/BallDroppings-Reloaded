@@ -32,8 +32,6 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-
-    <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
 
@@ -56,8 +54,13 @@ This section should list any major frameworks that you built your project using.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Download the latest executable from releases, and go through the installer! that's it!
-
+1. Install all packages with npm
+`npm i`
+2. Run without packaging
+`npm run start`
+_or_
+3. Package installer
+`npm run make`
 
 
 <!-- CONTRIBUTING -->
